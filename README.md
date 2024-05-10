@@ -1,1 +1,1 @@
-Disney+ Hotstar clone by using html, css, javascript. Only Front-End 
+Disney+ Hotstar clone by using html, css, javascript. Only Front-End. 
