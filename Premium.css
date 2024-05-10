@@ -1,0 +1,224 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #0f0f14;
+}
+#logo{
+    margin-top: 20px;
+    width: 73px;
+    margin-left: 15px;
+}
+.Premium_head{
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    background-color: #0f0f14;  
+}
+.Premium_head a{
+    text-decoration: none;
+}
+.Premium_head #premclose{
+    cursor: pointer;
+}
+.right{
+    margin-left: 60rem;
+    margin-top: 2.5rem;
+}
+.right .droplan{
+    color: #e1e6f0;
+    background-color: #0f0f14;
+}
+.premdes{
+  display: flex;
+  color: #e1e6f0;
+    margin-left: 1rem;
+    font-weight: 900;
+    font-size: 28px;
+}
+#languages ,#prembtn{
+    width: 8rem;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 5px;
+    height: 3rem;
+    color: white;
+    background-color: rgb(0, 13, 255, 1);
+    cursor: pointer;
+}
+#premclose{
+    color: #ffffff;
+    margin-left: 3rem;
+    font-size: 30px;
+    margin-top: 2rem;
+}
+
+.Premium1page{
+    background-color: #0f0f14;
+    
+}
+table{
+    color: #e1e6cc;
+    width: 50rem;
+    margin-left: 44rem;                                                                /* to shift left */
+}
+tr{
+    height: 50px;
+    font-size: 23px;
+}
+tr th{
+    padding: 15px;
+    font-size: 20px;
+}
+.subscriptionbtn{
+    margin-left: 50rem;
+}
+.subscriptionbtn .subscribtn{
+    margin-top: 2rem;
+    width: 11rem;
+    height: 4rem;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 5px;
+    color: #e1e6f0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.subscriptionbtn .subscribtn:focus{
+    border: 2px solid goldenrod;
+}
+
+.Continuews{
+    margin-left: -6rem;
+    margin-top: 1.5rem;
+    width: 110%;
+    height: 3rem;
+    font-size: 19px;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    color: #e1e6f0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+/*  footer start here */
+.form{
+    width: 45%;
+    height: 55%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right rgb(0, 0, 0, 0.5), rgba(0,0,0,0));
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1.25);
+  }
+  
+  .form .close-btn{
+    float: right;
+    font-size: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .form .content{
+    background-image: linear-gradient(to bottom rgb(0, 0, 0,1), rgba(0,0,0,0));
+    margin-left: 50%;
+  }
+  .form .content h2{
+    margin-top: 15%;
+    font-size: 18px;
+  }
+  .form .content .form-element #indian{
+    height: 40px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 5px;
+    width: 38px;
+  }
+  .form .content .form-element input{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    height: 40px;
+    width: 15rem;
+  }
+  .form .content .getotp{
+    margin-top: 30%;
+    height: 35px;
+    width: 19rem;
+    cursor: pointer;
+  }
+  .form .content .gethelp{
+    margin-top: 20%;
+    margin-left: 4%;
+  }
+  /* Login end here */
+  
+  
+  
+  /* Footer Starts here */
+  .footer{
+      
+      background-color: #0f0f14;
+  }
+  .foot-container{
+    background-color: #0f0f14;
+    width: 90%;
+    margin-left: 5%;
+    bottom: 20%;
+  }
+  .row{
+    background-color: #0f0f14;
+    display: flex;
+    padding-left: 2%;
+  }
+  .footer-col{
+  
+    padding-left: 7%;
+    width: 60%;
+    color: white;
+    background-color: #0f0f14;                  /*rgb(40, 39, 38)*/
+    justify-items: center;
+    justify-content: space-between;
+  }
+  #aboutitem{
+    font-size: 18px;
+  }
+  ul{
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  ul li{
+    color: #bcaaaa;
+    list-style: none;
+  }
+  ul li a{
+    text-decoration: none;
+    color: #bcaaaa;
+  }
+  #rights{
+    margin-left: -4%;
+    margin-top: 20%;
+    word-spacing: -5px;
+    color: yellowgreen;
+  }
+  #policy a{
+    word-spacing: -5px;
+    color: white;
+    margin-left: -15px;
+    text-decoration: none;
+  }
+  .social-media img{
+    height: 33px;
+    margin-right: 100px;
+    padding-top: 20px;
+  }
+  .social-media a i{
+    font-size: 20px;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+  }
+  /*Footer end here*/

@@ -1,0 +1,69 @@
+body{
+    background-color: #020304;
+}
+/* Login start here */
+#form{
+  color: black;
+  width: 45%;
+  height: 58%;
+  position: absolute;
+  background-color: #232121;
+  background-image: linear-gradient(to right rgb(0, 0, 0, 0.5), rgba(0,0,0,0));
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(1.25);
+}
+
+#form .close-btn{
+  float: right;
+  font-size: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: white;
+}
+#form .content{
+  background-image: linear-gradient(to bottom rgb(0, 0, 0,1), rgba(0,0,0,0));
+  margin-left: 50%;
+}
+#form .content h2{
+  margin-top: 10%;
+  font-size: 18px;
+  color: white;
+}
+#form .content .form-element #indian{
+  height: 40px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 5px;
+  width: 38px;
+}
+#form .content .form-element input{
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  height: 40px;
+  width: 15rem;
+  
+}
+#form .content .getotp{
+  margin-top: 25%;
+  height: 35px;
+  width: 17rem;
+  cursor: pointer;
+}
+.gethelp{
+    color: white;
+}
+.form .content .gethelp{
+  margin-top: 10%;
+  margin-left: 4%;
+  color: white;
+}
+.gethelp a span{
+  color: blue;
+}
+.gethelp a{
+  text-decoration: none;
+}
+/* Login end here */

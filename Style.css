@@ -1,0 +1,131 @@
+
+body{
+    background-color: #0f1014;
+}
+#logo{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    /* background: #ccc; */
+    width: 10%;
+    height: 100%;
+    z-index: 1000;
+    transition: all 0.2s ease-in-out;
+    padding: 30p 20px;
+    background-image: linear-gradient(to right, rgba(0,0,0,7),rgba(0,0,0,0));
+}
+.banner{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+.banner img{
+    height: auto;
+}
+
+
+header .navbar{
+    width: 100%;
+    margin-top: 70px;
+}
+header .navbar ul li{
+    list-style: none;
+    margin-bottom: 40px;
+}
+header .navbar ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+    transition: all 0.2s ease-in-out;
+}
+/* header .navbar ul li a:hover{
+    text-decoration: none;
+    color: #fff;                                    /*Edit
+    opacity: 2;
+}  */
+header .navbar ul li a:focus{
+    color: white;
+}
+header .navbar ul li #iconsn{
+    display: flex;
+    width: 40px;
+}
+/* header .navbar ul li #iconsn svg{
+    font-size: 25px;
+} */
+header .navbar ul li a .title{
+   position: relative;
+   left: -20px;
+   transition: all 0.2s ease-in-out;
+   opacity: 0;
+   visibility: hidden;
+}
+
+header:hover{
+    width: 20%;
+}
+header:hover nav ul li .title{
+    left: 0px;
+    position: relative;
+    opacity: 1;
+    visibility: inherit;
+}
+
+
+
+
+.banner .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 100px 120px;
+    z-index: 1000;
+    width: 30%;
+    height: auto;
+}
+.banner .overlay .seasiontitle{
+    color: #42cbfd;
+    font-weight: 700;
+}
+.banner .overlay .description{
+    color: white;
+    font-size: 20px;
+    opacity: 0.8;
+    font-weight: 400;
+}
+
+#wn{
+    width: 80%;
+    height: auto;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 25px;
+    color: rgb(22, 20, 20);
+    background-color: rgb(238, 233, 233,0.8);
+    border-radius: 8px;
+    cursor: pointer;
+    /* background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255)); */
+    opacity: 0.7;
+    
+  }
+  
+  #whishlist{
+    width: 11%;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(22, 20, 20);
+    background-color: rgb(238, 233, 233,0.8);
+    opacity: 0.5;
+    border-radius: 8px;
+    cursor: pointer;
+  }

@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(7, 7, 7);
+}
+.prembody{
+    float: left;
+}
+.Premiumnxt{
+    height: 8rem;
+    background-color: black;
+    width: 100%;
+    background-color: rgb(1, 1, 2);
+}
+.Premiumnxt a i{
+    top: 50%;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    color: white;
+    font-size: 25px;
+    left: 50%;
+    text-align: center;
+}
+.premcontent{
+    background-color: rgb(6, 6, 6);
+    float: left;
+    width: 50%;
+    margin-top: 3rem;
+    margin-left: 4rem;
+}   
+.premcontent h1,h3{
+  color: white;
+  
+} 
+
+/* .premcontent img{
+    
+} */
+.bodyundernav .containupi{
+  background-color: white;
+  border: 2px solid black;
+  padding: 15px;
+}
+.bodyundernav .border{
+  border: 2px solid black;
+  width: 38rem;
+  height: 25rem;
+}
+.containupi .border hr{
+  color: black;
+  border: 1.5px solid black;
+  background-color: blue;
+  position: fixed;
+}
+input::placeholder{
+  font-size: 18px;
+}
+
+.containupi #premnxttxt{
+    margin-top: 3rem;
+    margin-left: 7rem;
+    background-color: rgb(234, 221, 221);
+    width: 20rem;
+    padding-left: 8px;
+    height: 40px;
+    border: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 5px ;
+} 
+.containupi .qrcls{
+  color: white;
+  background-image: linear-gradient( blue, rgb(89, 89, 237)) ;
+}
+
+
+
+.containupi .premnxtverify{
+    background-image: linear-gradient( blue, rgb(91, 91, 240)) ;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    width: 18rem;
+    height: 40px;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.containupi button{
+    background-color: rgb(9, 8, 8);
+    color: white;
+    font-size: 18px;
+    width: 20rem;
+    margin-top: 7rem;
+    height: 35px;
+    float: left;
+    margin-left: 3rem;
+}
+.containupi img{
+    right: 0px;
+    display: none;
+    margin-top: 0rem;
+}
+.containupi{
+    margin-top: 4.5rem;
+    margin-right: 2rem;
+    float: right;
+    right: 0px;
+    width: 40%;
+    height: 60%;
+    background-color: rgb(7, 7, 7);
+}
+
+
+/* Footer starts here */
+.footer{
+  background-color: black;
+}
+.foot-container{
+  background-color: black;
+  width: 90%;
+  margin-left: 5%;
+  bottom: 20%;
+}
+.row{
+  background-color: black;
+  display: flex;
+  padding-left: 2%;
+}
+.footer-col{
+
+  padding-left: 7%;
+  width: 60%;
+  color: white;
+  background-color: black;                  /*rgb(40, 39, 38)*/
+  justify-items: center;
+  justify-content: space-between;
+}
+#aboutitem{
+  font-size: 18px;
+}
+ul{
+  font-size: 16px;
+  line-height: 1.5;
+}
+ul li{
+  color: #bcaaaa;
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+  color: #bcaaaa;
+
+}
+#rights{
+  margin-left: -4%;
+  margin-top: 20%;
+  word-spacing: -5px;
+  color: yellowgreen;
+}
+#policy a{
+  word-spacing: -5px;
+  color: white;
+  margin-left: -15px;
+  text-decoration: none;
+}
+.social-media img{
+  height: 33px;
+  margin-right: 100px;
+  padding-top: 20px;
+
+}
+.social-media a i{
+  font-size: 20px;
+  margin-left: 15px;
+  color: rgb(255, 255, 255);
+}
+/* Footer Ends here */
+/* .footer{
+  color:white;
+  width: 96rem;
+  background-color: red;
+  padding: 70px 0;
+  height: 15rem;
+}
+.foot-container{
+  width: 90rem;
+
+  background-color: black;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer-col{
+  width: 20%;
+  height: 30%;
+  padding: 0 30px;
+  margin-left: 1%;
+} */
+
+/* Footer end here */
